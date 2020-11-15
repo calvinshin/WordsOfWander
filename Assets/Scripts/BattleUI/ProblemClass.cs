@@ -6,6 +6,7 @@ using UnityEngine;
 public class Problem
 {
     public Word word;
+    // Looks like this should be List<Text> or Text[] answers;
     public List<string> answers;
     System.Random random = new System.Random ();
 
